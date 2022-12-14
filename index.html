@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>replit</title>
+  <style>
+    body {
+      height:100%;
+      color:whitesmoke;
+      background-color: black;
+      background-image: url(hal.png);
+      background-repeat: no-repeat;
+      background-size: 50%;
+      background-attachment: fixed;
+      background-position: center;
+    }
+    ::-moz-selection { /* Code for Firefox */
+      color: black;
+      background: red;
+    }
+    ::selection {
+      color: black;
+      background: red;
+    }
+    input{
+      color:#ffffff;
+      background-color: #000000;
+      border: 1px solid #ffffff;
+    }
+
+    #tablesection {
+      position: absolute;
+      top:5%;
+      left:5%;
+    }
+    td {
+      text-align: center;
+      padding: 2px 5px;
+    }
+    .image{
+      background-color:darkgray;
+      height:50px;
+      width:50px;
+      border-radius:10px;
+    }
+    #table {
+      border-collapse: separate;
+      border-spacing: 15px 15px;
+    }
+    #section{
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+    }
+    #said{
+      position: relative;
+      bottom: 0px;
+      width:100%;
+    }
+    #copyright{
+      width:130%;
+      position: relative;
+      bottom: 0;
+      font-size: 9pt;
+    }
+  </style>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--cursor: url(cursor.cur),auto;-->
+<section id="tablesection">
+  <table id="table">
+    <tr>
+     <!-- <td><img class = "image" src="gear.png"></img></td>-->
+    </tr>
+  </table>
+</section>
+
+<form id="form">
+  <input id="input" type="text" class="txt" />
+</form>
+<section id="section">
+  <h4><i id="said"></i></h4>
+  <div id="copyright">With audio by Jfach, The MIT License (MIT) Copyright (c) 2014 Jfach</div><br>
+</section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Speech synthesiser</title>
+
+    <link rel="stylesheet" href="Speech%20synthesiser-Dateien/style.css">
+  </head>
+
+  <body>
+    <h1>Speech synthesiser</h1>
+
+    <p>
+      Enter some text in the input below and press return or the "play" button
+      to hear it. change voices using the dropdown menu.
+    </p>
+
+    <form>
+      <label for="txt">Enter text</label>
+      <input id="txt" type="text" class="txt" value="I am sorry dave, i'm afraid i can't do that">
+      <div>
+        <label for="rate">Rate</label><input type="range" min="0.5" max="2" value="0.9" step="0.1" id="rate">
+        <div class="rate-value">0.9</div>
+        <div class="clearfix"></div>
+      </div>
+      <div>
+        <label for="pitch">Pitch</label><input type="range" min="0" max="2" value="0.5" step="0.1" id="pitch">
+        <div class="pitch-value">0.5</div>
+        <div class="clearfix"></div>
+      </div>
+      <select><option data-lang="en-US" data-name="Alex" selected="selected">Alex (en-US)</option><option data-lang="it-IT" data-name="Alice">Alice (it-IT)</option><option data-lang="sv-SE" data-name="Alva">Alva (sv-SE)</option><option data-lang="fr-CA" data-name="Amelie">Amelie (fr-CA)</option><option data-lang="de-DE" data-name="Anna">Anna (de-DE) -- DEFAULT</option><option data-lang="he-IL" data-name="Carmit">Carmit (he-IL)</option><option data-lang="id-ID" data-name="Damayanti">Damayanti (id-ID)</option><option data-lang="en-GB" data-name="Daniel">Daniel (en-GB)</option><option data-lang="es-AR" data-name="Diego">Diego (es-AR)</option><option data-lang="nl-BE" data-name="Ellen">Ellen (nl-BE)</option><option data-lang="en-scotland" data-name="Fiona">Fiona (en-scotland)</option><option data-lang="en-US" data-name="Fred">Fred (en-US)</option><option data-lang="ro-RO" data-name="Ioana">Ioana (ro-RO)</option><option data-lang="pt-PT" data-name="Joana">Joana (pt-PT)</option><option data-lang="es-ES" data-name="Jorge">Jorge (es-ES)</option><option data-lang="es-MX" data-name="Juan">Juan (es-MX)</option><option data-lang="th-TH" data-name="Kanya">Kanya (th-TH)</option><option data-lang="en-AU" data-name="Karen">Karen (en-AU)</option><option data-lang="ja-JP" data-name="Kyoko">Kyoko (ja-JP)</option><option data-lang="sk-SK" data-name="Laura">Laura (sk-SK)</option><option data-lang="hi-IN" data-name="Lekha">Lekha (hi-IN)</option><option data-lang="it-IT" data-name="Luca">Luca (it-IT)</option><option data-lang="pt-BR" data-name="Luciana">Luciana (pt-BR)</option><option data-lang="ar-SA" data-name="Maged">Maged (ar-SA)</option><option data-lang="hu-HU" data-name="Mariska">Mariska (hu-HU)</option><option data-lang="zh-TW" data-name="Mei-Jia">Mei-Jia (zh-TW)</option><option data-lang="el-GR" data-name="Melina">Melina (el-GR)</option><option data-lang="ru-RU" data-name="Milena">Milena (ru-RU)</option><option data-lang="en-IE" data-name="Moira">Moira (en-IE)</option><option data-lang="es-ES" data-name="Monica">Monica (es-ES)</option><option data-lang="nb-NO" data-name="Nora">Nora (nb-NO)</option><option data-lang="es-MX" data-name="Paulina">Paulina (es-MX)</option><option data-lang="en-IN" data-name="Rishi">Rishi (en-IN)</option><option data-lang="en-US" data-name="Samantha">Samantha (en-US)</option><option data-lang="da-DK" data-name="Sara">Sara (da-DK)</option><option data-lang="fi-FI" data-name="Satu">Satu (fi-FI)</option><option data-lang="zh-HK" data-name="Sin-ji">Sin-ji (zh-HK)</option><option data-lang="en-ZA" data-name="Tessa">Tessa (en-ZA)</option><option data-lang="fr-FR" data-name="Thomas">Thomas (fr-FR)</option><option data-lang="zh-CN" data-name="Ting-Ting">Ting-Ting (zh-CN)</option><option data-lang="en-IN" data-name="Veena">Veena (en-IN)</option><option data-lang="en-US" data-name="Victoria">Victoria (en-US)</option><option data-lang="nl-NL" data-name="Xander">Xander (nl-NL)</option><option data-lang="tr-TR" data-name="Yelda">Yelda (tr-TR)</option><option data-lang="ko-KR" data-name="Yuna">Yuna (ko-KR)</option><option data-lang="ru-RU" data-name="Yuri">Yuri (ru-RU)</option><option data-lang="pl-PL" data-name="Zosia">Zosia (pl-PL)</option><option data-lang="cs-CZ" data-name="Zuzana">Zuzana (cs-CZ)</option></select>
+      <div class="controls">
+        <button id="play" type="submit">Play</button>
+      </div>
+    </form>
+
+    <script src="Speech%20synthesiser-Dateien/script.js"></script>
+  
+
+</body></html>
